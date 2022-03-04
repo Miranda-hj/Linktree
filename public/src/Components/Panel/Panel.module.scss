@@ -1,0 +1,33 @@
+@import 'src/styles/variables';
+
+.basic {
+    width: 50%;
+    margin: 0.5rem 0;
+}
+
+.panel {
+    background-color: $primary;
+    border-radius: 5px;
+    padding: 0.5rem 0;
+    text-align: center;
+    cursor: pointer;
+}
+.lists {
+    background-color: $secondary;
+}
+.list {
+    border-bottom: solid 1px $dark-gray;
+    padding: 0.5rem 1rem 0.5rem 0 ;
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.footer {
+    list-style-type: none;
+    padding: 1rem 0;
+    text-align: center;
+}
