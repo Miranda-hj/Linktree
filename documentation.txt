@@ -1,0 +1,5 @@
+I didn't completed the audio player feature and the testing.
+
+Currently, I am still learning React test, it's a little bit hard for me to do it alone. 
+
+The audio player haven't completed, if I have more time I will import a react framework to create the audio player bar.
