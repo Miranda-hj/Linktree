@@ -1,13 +1,11 @@
-import React from 'react';
-import './Header.module.scss';
+import React from "react";
+import styles from "./Header.module.scss";
 
 export const Header = () => {
-    return (
-        <div>
-            <div>
-                <img src='src\assets\profile-picture.png' alt=''/>
-            </div>
-            <div>@yourname</div>
-        </div>
-    )
-}
+  return (
+    <div className={styles.stack}>
+      <img src="./img/profile-picture.png" alt="" />
+      <div>@yourname</div>
+    </div>
+  );
+};
